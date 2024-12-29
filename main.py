@@ -25,7 +25,7 @@ def index():
 
 
 #Динамичные скиллы
-@app.route('/process', methods=['POST'])
+@app.route('/', methods=['POST'])
 def process_form():
     button_python = request.form.get('button_python')
     button_discord = request.form.get('button_discord')
